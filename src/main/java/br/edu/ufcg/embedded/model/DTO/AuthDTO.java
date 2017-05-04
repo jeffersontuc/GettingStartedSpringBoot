@@ -1,0 +1,35 @@
+package br.edu.ufcg.embedded.model.DTO;
+
+/**
+ * Created by treinamento-16 on 04/05/17.
+ */
+public class AuthDTO {
+
+    private String username;
+    private String password;
+
+    public AuthDTO(String username, String password){
+        this.username = username;
+        this.password = password;
+    }
+
+    public AuthDTO(){
+
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
